@@ -1,0 +1,12 @@
+Read CLAUDE.md and README.md. Work only in this game project. Respond in Korean.
+
+Improve character motion and gameplay object presentation while keeping all existing mechanics and controls.
+
+1. Inspect the shared-global overrides in game.js, visuals.js, adventure.js, sprites.js before changing them. Explain your approach briefly.
+2. Improve the image character's running rhythm, takeoff/landing squash and stretch, double-jump rotation, fever flying and hit feedback. Keep the six-frame sheet and provide a reliable image-load fallback. Ensure foot alignment and collision bounds are consistent.
+3. Improve coin rotation/bobbing, item animations and pickup feedback, obstacle anticipation and stage-specific variety. Maintain readable hitboxes and fair jump/recovery gaps. Do not add unavoidable obstacle patterns.
+4. Address discovered bugs. Preserve 3 health, four 30-second stages, coin scoring, 5-second fever, immediate immunity, magnet/shield/heart rules, pause/restart behavior, touch controls and local best-score persistence.
+5. Update meaningful regression checks and run node test-game.cjs. Validate JavaScript syntax. Do not claim visual browser validation unless actually performed.
+6. Do not install packages, change unrelated files, access credentials, commit, push or deploy. Do not use external services or spend money on image generation. Keep Korean UI.
+
+Finish with a concise Korean report: changed files, behavior changes, fixed bugs, checks run, and any remaining limitations.

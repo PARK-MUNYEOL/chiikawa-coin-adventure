@@ -5,7 +5,9 @@
   "description": "Two-player room-code browser running game",
   "scripts": {
     "start": "node server.cjs",
-    "test": "node test-game.cjs && node test-rooms.cjs"
+    "test": "node test-game.cjs && node test-rooms.cjs && node test-duo.cjs"
   },
-  "engines": { "node": ">=22" }
+  "engines": {
+    "node": ">=22"
+  }
 }

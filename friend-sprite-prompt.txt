@@ -1,0 +1,2 @@
+Built-in image_gen edit, transparent_background true. Reference: dist/hero-sprites-v1.png.
+Change the six-pose character to Hachiware: blue triangular ears and blue head fur, white V forehead, white muzzle, pink nose, blue tail, mint backpack. Preserve original 3x2 grid, pose locations, scale, right-facing direction, padding and true alpha. Keep run A/run B/jump/tuck/fever/hurt pose order. No labels or scenery.
