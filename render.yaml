@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: chiikawa-coin-adventure
+    runtime: node
+    plan: free
+    buildCommand: node --check server.cjs && node test-game.cjs && node test-rooms.cjs
+    startCommand: node server.cjs
+    healthCheckPath: /health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: GAME_HOST
+        value: 0.0.0.0
